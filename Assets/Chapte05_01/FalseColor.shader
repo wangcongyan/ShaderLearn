@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Unlit/NewUnlitShader"
+Shader "Unlit/FalseColor"
 {
 	Properties
 	{
@@ -31,7 +31,7 @@ Shader "Unlit/NewUnlitShader"
 				o.color = fixed4(v.normal*0.5 + fixed3(0.5,0.5,0.5),1.0);
 
 				//可视化切线方向
-				o.color = fixed4(v.tangent *0.5, + fixed3(0.5,0.5,0.5),1.0);
+				o.color = fixe9d4(v.tangent *0.5, + fixed3(0.5,0.5,0.5),1.0);
 
 				//可视化副切线方向
 
@@ -45,6 +45,20 @@ Shader "Unlit/NewUnlitShader"
 
 				o.color = fixed4(v.texcoord1.xy,0.0,1.0);
 
+				//可视化第一组纹理的小数部分
+				o.color = frac(v.texcoord);
+				if(any(saturate(v.texcoord) - v.texcoord))
+				{
+					o.color.b = 0.5;
+				}
+				o.color.a = 1.0;
+
+				return o ;
+			}
+
+			frag(v2f i):SV_Target
+			{
+				return i.color;				
 			}
 			ENDCG
 		}

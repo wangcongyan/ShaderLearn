@@ -1,122 +1,177 @@
 Using pre-set license
-Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 19043.1415; Version 2009; 64bit' Language: 'zh' Physical Memory: 16097 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Tech/TA/ShaderLearn
+/Users/tinsoldier/studyProject/ShaderLearn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61295
-Successfully changed project path to: D:/Tech/TA/ShaderLearn
-D:/Tech/TA/ShaderLearn
+59865
+Successfully changed project path to: /Users/tinsoldier/studyProject/ShaderLearn
+/Users/tinsoldier/studyProject/ShaderLearn
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.6f1 (8a2143876886)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Tech/TA/ShaderLearn/Assets
+Initialize engine version: 2020.3.5f1c1 (548653c6c3de)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tinsoldier/studyProject/ShaderLearn/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
-    Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7141
+2022-01-09 15:40:39.122 Unity[7675:6402940] Color LCD preferred device: Intel Iris Graphics (low power)
+2022-01-09 15:40:39.122 Unity[7675:6402940] Metal devices available: 1
+2022-01-09 15:40:39.122 Unity[7675:6402940] 0: Intel Iris Graphics (low power)
+2022-01-09 15:40:39.123 Unity[7675:6402940] Using device Intel Iris Graphics (low power)
+Initializing Metal device caps: Intel Iris Graphics
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56675
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001438 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.76 ms, found 0 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002058 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 53.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
+- Completed reload, in  4.886 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000397 seconds.
+Registered in 0.004031 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
+- Completed reload, in  2.284 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.1 MB.
-System memory in use after: 57.1 MB.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1547.
-Total: 1.507700 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.227000 ms  DeleteObjects: 0.054900 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 4.963102 ms (FindLiveObjects: 0.316348 ms CreateObjectMapping: 0.070106 ms MarkObjects: 4.455872 ms  DeleteObjects: 0.114660 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(ce4f3ca9f06615d4d859ab61468fd53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(ce4f3ca9f06615d4d859ab61468fd53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda30e9884bb0173f406f892429d1497') in 0.576872 seconds
+  Import took 0.582773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4195.975446 seconds.
   path: Assets/Chapte05_01/Cube.mat
   artifactKey: Guid(fbf9b5cf675f88148871e75244877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte05_01/Cube.mat using Guid(fbf9b5cf675f88148871e75244877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3359136aa552785be25a4cbaf344952') in 0.134157 seconds
-  Import took 0.135860 seconds .
+Start importing Assets/Chapte05_01/Cube.mat using Guid(fbf9b5cf675f88148871e75244877061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9fde93821c3e9b0ad05412de0ed06a') in 0.580839 seconds
+  Import took 0.585614 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.615765 seconds.
+  Time since last request: 0.698106 seconds.
   path: Assets/Chapte05_01/FalseColo.shader
   artifactKey: Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte05_01/FalseColo.shader using Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f339742aa21e69f7ef849149cc5f48b') in 0.018404 seconds
-  Import took 0.019920 seconds .
+Start importing Assets/Chapte05_01/FalseColo.shader using Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf78f3d744724f4a1b740d7199c894f') in 0.221965 seconds
+  Import took 0.224856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006419 seconds.
+  Time since last request: 1.204634 seconds.
   path: Assets/Chapte05_01/FalseColo.shader
   artifactKey: Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte05_01/FalseColo.shader using Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f339742aa21e69f7ef849149cc5f48b') in 0.004992 seconds
-  Import took 0.006503 seconds .
+Start importing Assets/Chapte05_01/FalseColo.shader using Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf78f3d744724f4a1b740d7199c894f') in 0.005964 seconds
+  Import took 0.010060 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.269220 seconds.
+  Time since last request: 0.164508 seconds.
+  path: Assets/Chapte05_01/SimpleShader.shader
+  artifactKey: Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte05_01/SimpleShader.shader using Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949f22e91fdd8ea97395dc9f01d09f8f') in 0.003104 seconds
+  Import took 0.006137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001578 seconds.
+  path: Assets/Chapte05_01/SimpleShader.shader
+  artifactKey: Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte05_01/SimpleShader.shader using Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949f22e91fdd8ea97395dc9f01d09f8f') in 0.002643 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.839960 seconds.
   path: Assets/Chapte06_01/Scene
   artifactKey: Guid(231f91a7f828a2d46b9d5bee9dea408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Scene using Guid(231f91a7f828a2d46b9d5bee9dea408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fbd2c67cb59335018a781afbf54125') in 0.001508 seconds
-  Import took 0.003187 seconds .
+Start importing Assets/Chapte06_01/Scene using Guid(231f91a7f828a2d46b9d5bee9dea408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f91ee443751d7876520dbb28967dc73') in 0.003280 seconds
+  Import took 0.008275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.086892 seconds.
-  path: Assets/Chapte05_01/SimpleShader.shader
-  artifactKey: Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte05_01/SimpleShader.shader using Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59ae9c6119af041f88a9460aab125c') in 0.001656 seconds
-  Import took 0.003125 seconds .
+  Time since last request: 0.591530 seconds.
+  path: Assets/Chapte06_01/Scene/Scene_Chapter0601.unity
+  artifactKey: Guid(8072f375b4262bd438d2e98a535ab513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Scene/Scene_Chapter0601.unity using Guid(8072f375b4262bd438d2e98a535ab513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3729f29bca3fe951e5682a599e8330da') in 0.002870 seconds
+  Import took 0.006467 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Chapte05_01/SimpleShader.shader
-  artifactKey: Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte05_01/SimpleShader.shader using Guid(6242b9cccb0a4eb40bc3731e3fa25a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59ae9c6119af041f88a9460aab125c') in 0.001206 seconds
-  Import took 0.002480 seconds .
+  Time since last request: 0.001549 seconds.
+  path: Assets/Chapte06_01/Scene/Scene_Chapter0601.unity
+  artifactKey: Guid(8072f375b4262bd438d2e98a535ab513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Scene/Scene_Chapter0601.unity using Guid(8072f375b4262bd438d2e98a535ab513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3729f29bca3fe951e5682a599e8330da') in 0.002124 seconds
+  Import took 0.006547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.094021 seconds.
+  path: Assets/Chapte06_01
+  artifactKey: Guid(1d5d3f76f2a59414496a9948ade960b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01 using Guid(1d5d3f76f2a59414496a9948ade960b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec0f510c2d4cd33e1ad33a0f9dab50d') in 0.002521 seconds
+  Import took 0.009576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.363834 seconds.
+  path: Assets/Chapte06_01/Shaders
+  artifactKey: Guid(bc870fc14dd6645458c877218123ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders using Guid(bc870fc14dd6645458c877218123ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f84fec7ec40e24629229a2fc894e6') in 0.003706 seconds
+  Import took 0.009259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.819613 seconds.
+  path: Assets/Chapte06_01/Shaders/003.shader
+  artifactKey: Guid(7a5c30c6bea5e4a74b33f623c033f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/003.shader using Guid(7a5c30c6bea5e4a74b33f623c033f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea60c9e0b7fbb187677d71b5fedcc9') in 0.005810 seconds
+  Import took 0.010565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Chapte06_01/Shaders/003.shader
+  artifactKey: Guid(7a5c30c6bea5e4a74b33f623c033f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/003.shader using Guid(7a5c30c6bea5e4a74b33f623c033f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea60c9e0b7fbb187677d71b5fedcc9') in 0.006350 seconds
+  Import took 0.015280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1523.356048 seconds.
+  path: Assets/Chapte05_01/FalseColo.shader
+  artifactKey: Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte05_01/FalseColo.shader using Guid(d217d3e1f3b3da14ebded1aab723e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c8f554e6fb050fcc23078d2fce2ab3') in 0.020464 seconds
+  Import took 0.025727 seconds .
 

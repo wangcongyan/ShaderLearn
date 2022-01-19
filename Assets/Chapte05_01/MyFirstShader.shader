@@ -23,6 +23,11 @@
 
 			fixed4 frag():SV_Target
 			{
+				#if UNITY_UV_STARTS_AT_TOP
+				if(_MainTex_TexelSize.y < 0)
+				{
+					uv.y = 1- uv.y;
+				}
 				return _Color;
 			}
 			ENDCG 

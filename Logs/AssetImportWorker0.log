@@ -159,3 +159,35 @@ Received Import Request.
 Start importing Assets/Chapte06_01/Shaders/Chapter6-HalfLambert.shader using Guid(a728326d7e0244ccca04dcd0f092e6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef97569c29ef120fa6420ef63f58e0e') in 0.002487 seconds
   Import took 0.005185 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 244.832923 seconds.
+  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader
+  artifactKey: Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader using Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6388c6e6ab45876babcf485d2a8ebff2') in 0.004187 seconds
+  Import took 0.008396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader
+  artifactKey: Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader using Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6388c6e6ab45876babcf485d2a8ebff2') in 0.004196 seconds
+  Import took 0.008138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.963060 seconds.
+  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel 1.shader
+  artifactKey: Guid(f8ac7d6ca230a401ba6008375a9fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel 1.shader using Guid(f8ac7d6ca230a401ba6008375a9fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1074383b39367899520eefa356440c') in 0.004471 seconds
+  Import took 0.008203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001739 seconds.
+  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel 1.shader
+  artifactKey: Guid(f8ac7d6ca230a401ba6008375a9fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel 1.shader using Guid(f8ac7d6ca230a401ba6008375a9fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1074383b39367899520eefa356440c') in 0.003616 seconds
+  Import took 0.006531 seconds .
+

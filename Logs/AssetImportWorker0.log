@@ -191,3 +191,4 @@ Received Import Request.
 Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel 1.shader using Guid(f8ac7d6ca230a401ba6008375a9fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1074383b39367899520eefa356440c') in 0.003616 seconds
   Import took 0.006531 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

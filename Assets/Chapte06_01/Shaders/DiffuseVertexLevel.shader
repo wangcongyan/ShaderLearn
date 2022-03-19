@@ -53,9 +53,16 @@ Shader "Unlit/DiffuseVertexLevel"
             fixed4 frag (v2f i) : SV_Target
             {
                fixed4 col = fixed4(i.color,1.0);
+              /*  fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+                fixed3 worldNormal = normalize(i, worldNormal);
+                fixed3 worldLightDir = normalize(_worldSpaceLightPos0.xyz);
+                fixed3 diffuse = _LightColor.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLightDir));
+                fixed3 color = ambient + diffuse;
+                return fixed4(ambient + diffuse);*/
                 return col;
             }
             ENDCG
         }
     }
+    Fallback "Specular"
 }

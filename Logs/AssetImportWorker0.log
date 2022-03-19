@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 19043.1466; Version 2009; 64bit' Language: 'zh' Physical Memory: 16097 MB
+OS: 'Windows 10 Home China; OS build 22000.556; Version 2009; 64bit' Language: 'zh' Physical Memory: 16139 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,129 +11,72 @@ C:\Program Files\Unity\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Tech/TA/ShaderLearn
+D:/Tech/Learn/ShaderLearn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62958
-Successfully changed project path to: D:/Tech/TA/ShaderLearn
-D:/Tech/TA/ShaderLearn
+63342
+Successfully changed project path to: D:/Tech/Learn/ShaderLearn
+D:/Tech/Learn/ShaderLearn
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 13.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Tech/TA/ShaderLearn/Assets
+[Subsystems] Discovering subsystems at path D:/Tech/Learn/ShaderLearn/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7141
+    VRAM:     8050 MB
+    Driver:   30.0.14.7208
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001439 seconds.
+Registered in 0.000630 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.09 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 12.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.695 seconds
+- Completed reload, in  0.516 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000314 seconds.
+Registered in 0.000212 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
+- Completed reload, in  0.435 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.0 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1563.
-Total: 1.483700 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.026700 ms MarkObjects: 1.262500 ms  DeleteObjects: 0.065500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Chapte06_01/Materials/SpecularMat.mat
-  artifactKey: Guid(cad86d9259a474dabbc99780f93cfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Materials/SpecularMat.mat using Guid(cad86d9259a474dabbc99780f93cfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cfa6b357e8f763160090bf3e9a8642') in 0.080778 seconds
-  Import took 0.114202 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 1.069400 ms (FindLiveObjects: 0.074200 ms CreateObjectMapping: 0.018900 ms MarkObjects: 0.918400 ms  DeleteObjects: 0.057000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Chapte06_01/Materials/DiffusePixelLevel.mat
-  artifactKey: Guid(cd57beca66a4342b9bafb03fea5b63f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Materials/DiffusePixelLevel.mat using Guid(cd57beca66a4342b9bafb03fea5b63f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30c89b2a9894fd2e156a32b4b158940') in 0.005944 seconds
-  Import took 0.008766 seconds .
+  path: Assets/Chapter07/Materials/SingleTexureMat.mat
+  artifactKey: Guid(fcc53712b7aa8cd4cabab70616c2e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chapter07/Materials/SingleTexureMat.mat using Guid(fcc53712b7aa8cd4cabab70616c2e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aa804c3f4d547423dd770629a39530') in 0.059930 seconds
+  Import took 0.061237 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Chapte06_01/Materials/DiffuseVertexLevelMat.mat
-  artifactKey: Guid(7807cc71441144008ba89be438036710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Materials/DiffuseVertexLevelMat.mat using Guid(7807cc71441144008ba89be438036710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28463547bb3c87d004e6342b1e178669') in 0.005729 seconds
-  Import took 0.007209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Chapte06_01/Materials/HalfLambertMat.mat
-  artifactKey: Guid(1cf4e1f1222124a41bce0d3c4554d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Materials/HalfLambertMat.mat using Guid(1cf4e1f1222124a41bce0d3c4554d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb197e372bf919923cc5e14b80ea9a2') in 0.183483 seconds
-  Import took 0.186001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 312.882255 seconds.
-  path: Assets/Chapte06_01/Materials/SpecularMat.mat
-  artifactKey: Guid(cad86d9259a474dabbc99780f93cfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Materials/SpecularMat.mat using Guid(cad86d9259a474dabbc99780f93cfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0ec14b290821659fe00788f07670bb') in 0.005903 seconds
-  Import took 0.008416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14291.696740 seconds.
-  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader
-  artifactKey: Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader using Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadc65c4d1fdcac849ba73dc475eb96f') in 0.068323 seconds
-  Import took 0.090465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.378857 seconds.
-  path: Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader
-  artifactKey: Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Shaders/Chapter6_SpecularVertexLevel.shader using Guid(7ed6cf7356f5b46dba4340ff73839852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadc65c4d1fdcac849ba73dc475eb96f') in 0.001397 seconds
-  Import took 0.003676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.652583 seconds.
-  path: Assets/Chapte06_01/Shaders/DiffuseVertexLevel.shader
-  artifactKey: Guid(363759e8719ed4185a85e2542de582ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chapte06_01/Shaders/DiffuseVertexLevel.shader using Guid(363759e8719ed4185a85e2542de582ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304a366d6c49f6bd8d0c6c1f4242e52') in 0.012707 seconds
-  Import took 0.034469 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

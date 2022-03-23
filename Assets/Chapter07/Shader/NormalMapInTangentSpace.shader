@@ -40,7 +40,7 @@ Shader "Unlit/NormalMapInTangentSpace"
                     float4 vertex:POSITION;
                     float3 normal : NORMAL;
                     float4 tangent : TANGENT;
-                    float texcoord : TEXCOORD0;
+                    float4 texcoord : TEXCOORD0;
 
                 };
 
@@ -65,18 +65,18 @@ Shader "Unlit/NormalMapInTangentSpace"
                     float3 binormal = cross(v.normal, v.tangent.xyz) * v.tangent.w;
 
                     float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
-                    o.lightDor = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
-                    o.viewDir = mul(rotation, ObjectSpaceViewDir(v.vertex)).xyz;
+                    o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
+                    o.viewDir = mul(rotation, ObjSpaceViewDir(v.vertex)).xyz;
                     return o;
                 }
 
                 fixed4 frag(v2f i) :SV_Target
                 {
                     fixed3 tangentLightDir = normalize(i.lightDir);
-                    fixed3 tamgemtVoewDir = normalize(i.viewDir);
+                    fixed3 tangentViewDir = normalize(i.viewDir);
                     fixed4 packedNormal = tex2D(_BumpMap, i.uv.zw);
                     fixed3 tangentNormal;
-                    tangentNormal = UnpackNormal(packageNormal);
+                    tangentNormal = UnpackNormal(packedNormal);
                     tangentNormal.xy *= _BumpScale;
                     tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy, tangentNormal.xy)));
 
